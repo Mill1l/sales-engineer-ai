@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-10-31",
+  "disclaimer": "独立学习演示项目，非 Schneider Electric 官方工具",
+  "products": [
+    {
+      "sku": "SMT1500I",
+      "name": "APC Smart-UPS 1500",
+      "recordStatus": "partially_verified",
+      "market": "CL",
+      "verifiedOn": "2026-10-31",
+      "sourceUrl": "https://www.se.com/cl/es/product/SMT1500I/smartups-de-apc-l%C3%ADnea-interactiva-1500-va-torre-230-v-8-salidas-iec-c13-smartslot-avr-lcd/",
+      "sources": [
+        {
+          "id": "smt1500i-cl",
+          "url": "https://www.se.com/cl/es/product/SMT1500I/smartups-de-apc-l%C3%ADnea-interactiva-1500-va-torre-230-v-8-salidas-iec-c13-smartslot-avr-lcd/",
+          "title": "Schneider Electric Chile — SMT1500I",
+          "verifiedOn": "2026-10-31",
+          "access": "official_page_text_read",
+          "limitation": "Canonical official page text read via research browser. Dynamic technical tables and runtime data were not exposed. Short SKU-only URL failed; full product URL succeeded. No complete archived HTML snapshot."
+        }
+      ],
+      "specifications": {
+        "ratedW": {
+          "status": "verified_official",
+          "value": 1000,
+          "sourceId": "smt1500i-cl",
+          "locator": "Product-specific power protection feature",
+          "note": "Rated active power for this SKU."
+        },
+        "ratedVA": {
+          "status": "verified_official",
+          "value": 1500,
+          "sourceId": "smt1500i-cl",
+          "locator": "Product title and product-specific power protection feature",
+          "note": "Rated apparent power for this SKU."
+        },
+        "topology": {
+          "status": "verified_official",
+          "value": "line_interactive",
+          "sourceId": "smt1500i-cl",
+          "locator": "Product title / product-specific power protection feature",
+          "note": "Explicit topology in the current SKU feature text."
+        },
+        "nominalVoltageV": {
+          "status": "verified_official",
+          "value": 230,
+          "sourceId": "smt1500i-cl",
+          "locator": "Product title",
+          "note": "Nominal 230 V only. Does not establish complete input range or configurable output voltages."
+        },
+        "inputVoltageRangeV": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No SKU-specific input operating range was available in the accessed Chile page text."
+        },
+        "outputVoltagesV": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Configurable output voltages require an official SKU-specific technical table; title voltage alone is insufficient."
+        },
+        "inputPhases": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Input phase count not explicitly established by the accessed product text."
+        },
+        "outputPhases": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Output phase count not explicitly established by the accessed product text."
+        },
+        "frequencyHz": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Frequency not established in the accessed product text."
+        },
+        "mounting": {
+          "status": "verified_official",
+          "value": [
+            "tower"
+          ],
+          "sourceId": "smt1500i-cl",
+          "locator": "Tower feature",
+          "note": "Tower model."
+        },
+        "rackKitIncluded": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Rack mounting not established for this tower SKU; do not substitute SMT1500RMI variants."
+        },
+        "outputConnectors": {
+          "status": "verified_official",
+          "value": "8 × IEC C13",
+          "sourceId": "smt1500i-cl",
+          "locator": "Product title",
+          "note": "Output outlet count and connector type explicitly stated in title."
+        },
+        "redundancy": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No verified redundancy architecture or parallel-operation capability; do not infer from product family."
+        },
+        "runtimeCurve": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No official runtime curve points captured. Verify load, battery pack configuration and test conditions; never infer from battery capacity."
+        }
+      },
+      "commercial": {
+        "lifecycleChile": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Chile page existence and replacement battery notices do not prove the UPS is currently on sale."
+        },
+        "stock": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No live official stock source connected."
+        },
+        "price": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No verified local quote or official price source captured."
+        }
+      }
+    },
+    {
+      "sku": "SRT2200XLI",
+      "name": "APC Smart-UPS SRT 2200",
+      "recordStatus": "partially_verified",
+      "market": "CL",
+      "verifiedOn": "2026-10-31",
+      "sourceUrl": "https://www.se.com/cl/es/product/SRT2200XLI/unidad-smartups-srt-de-apc-de-2200-va-y-230-v/",
+      "sources": [
+        {
+          "id": "srt2200xli-cl",
+          "url": "https://www.se.com/cl/es/product/SRT2200XLI/unidad-smartups-srt-de-apc-de-2200-va-y-230-v/",
+          "title": "Schneider Electric Chile — SRT2200XLI",
+          "verifiedOn": "2026-10-31",
+          "access": "official_page_text_read",
+          "limitation": "Canonical official page text read via research browser. Dynamic technical tables and runtime data were not exposed. Short SKU-only URL failed; full product URL succeeded. No complete archived HTML snapshot."
+        }
+      ],
+      "specifications": {
+        "ratedW": {
+          "status": "verified_official",
+          "value": 1980,
+          "sourceId": "srt2200xli-cl",
+          "locator": "Product-specific power protection feature",
+          "note": "Rated active power for this SKU."
+        },
+        "ratedVA": {
+          "status": "verified_official",
+          "value": 2200,
+          "sourceId": "srt2200xli-cl",
+          "locator": "Product title and product-specific power protection feature",
+          "note": "Rated apparent power for this SKU."
+        },
+        "topology": {
+          "status": "verified_official",
+          "value": "double_conversion_online",
+          "sourceId": "srt2200xli-cl",
+          "locator": "Product title / product-specific power protection feature",
+          "note": "Explicit topology in the current SKU feature text."
+        },
+        "nominalVoltageV": {
+          "status": "verified_official",
+          "value": 230,
+          "sourceId": "srt2200xli-cl",
+          "locator": "Product title and selected (unlinked) input voltage",
+          "note": "Nominal 230 V only. Does not establish complete input range or configurable output voltages."
+        },
+        "inputVoltageRangeV": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No SKU-specific input operating range was available in the accessed Chile page text."
+        },
+        "outputVoltagesV": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Configurable output voltages require an official SKU-specific technical table; title voltage alone is insufficient."
+        },
+        "inputPhases": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Input phase count not explicitly established by the accessed product text."
+        },
+        "outputPhases": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Output phase count not explicitly established by the accessed product text."
+        },
+        "frequencyHz": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Frequency not established in the accessed product text."
+        },
+        "mounting": {
+          "status": "verified_official",
+          "value": [
+            "tower",
+            "rack_with_optional_kit"
+          ],
+          "sourceId": "srt2200xli-cl",
+          "locator": "Tower feature and rack/tower conversion feature",
+          "note": "Rack conversion needs SRTRK4 or SRTRK3, sold separately; validate kit fit for the customer installation."
+        },
+        "rackKitIncluded": {
+          "status": "verified_official",
+          "value": false,
+          "sourceId": "srt2200xli-cl",
+          "locator": "Rack/tower conversion feature",
+          "note": "Rail kit SRTRK4 or SRTRK3 is sold separately."
+        },
+        "outputConnectors": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Output connector specification not established in the accessed Chile page text."
+        },
+        "redundancy": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No verified redundancy architecture or parallel-operation capability; do not infer from product family."
+        },
+        "runtimeCurve": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No official runtime curve points captured. Verify load, battery pack configuration and test conditions; never infer from battery capacity."
+        }
+      },
+      "commercial": {
+        "lifecycleChile": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Chile page existence and replacement battery notices do not prove the UPS is currently on sale."
+        },
+        "stock": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No live official stock source connected."
+        },
+        "price": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No verified local quote or official price source captured."
+        }
+      }
+    },
+    {
+      "sku": "SRT3000XLI",
+      "name": "APC Smart-UPS SRT 3000",
+      "recordStatus": "partially_verified",
+      "market": "CL",
+      "verifiedOn": "2026-10-31",
+      "sourceUrl": "https://www.se.com/cl/es/product/SRT3000XLI/unidad-smartups-srt-de-apc-3000-va-y-230v/",
+      "sources": [
+        {
+          "id": "srt3000xli-cl",
+          "url": "https://www.se.com/cl/es/product/SRT3000XLI/unidad-smartups-srt-de-apc-3000-va-y-230v/",
+          "title": "Schneider Electric Chile — SRT3000XLI",
+          "verifiedOn": "2026-10-31",
+          "access": "official_page_text_read",
+          "limitation": "Canonical official page text read via research browser. Dynamic technical tables and runtime data were not exposed. Short SKU-only URL failed; full product URL succeeded. No complete archived HTML snapshot."
+        }
+      ],
+      "specifications": {
+        "ratedW": {
+          "status": "verified_official",
+          "value": 2700,
+          "sourceId": "srt3000xli-cl",
+          "locator": "Product-specific power protection feature",
+          "note": "Rated active power for this SKU."
+        },
+        "ratedVA": {
+          "status": "verified_official",
+          "value": 3000,
+          "sourceId": "srt3000xli-cl",
+          "locator": "Product title and product-specific power protection feature",
+          "note": "Rated apparent power for this SKU."
+        },
+        "topology": {
+          "status": "verified_official",
+          "value": "double_conversion_online",
+          "sourceId": "srt3000xli-cl",
+          "locator": "Product title / product-specific power protection feature",
+          "note": "Explicit topology in the current SKU feature text."
+        },
+        "nominalVoltageV": {
+          "status": "verified_official",
+          "value": 230,
+          "sourceId": "srt3000xli-cl",
+          "locator": "Product title and selected (unlinked) input voltage",
+          "note": "Nominal 230 V only. Does not establish complete input range or configurable output voltages."
+        },
+        "inputVoltageRangeV": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No SKU-specific input operating range was available in the accessed Chile page text."
+        },
+        "outputVoltagesV": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Configurable output voltages require an official SKU-specific technical table; title voltage alone is insufficient."
+        },
+        "inputPhases": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Input phase count not explicitly established by the accessed product text."
+        },
+        "outputPhases": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Output phase count not explicitly established by the accessed product text."
+        },
+        "frequencyHz": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Frequency not established in the accessed product text."
+        },
+        "mounting": {
+          "status": "verified_official",
+          "value": [
+            "tower",
+            "rack_with_optional_kit"
+          ],
+          "sourceId": "srt3000xli-cl",
+          "locator": "Tower feature and rack/tower conversion feature",
+          "note": "Rack conversion needs SRTRK4 or SRTRK3, sold separately; validate kit fit for the customer installation."
+        },
+        "rackKitIncluded": {
+          "status": "verified_official",
+          "value": false,
+          "sourceId": "srt3000xli-cl",
+          "locator": "Rack/tower conversion feature",
+          "note": "Rail kit SRTRK4 or SRTRK3 is sold separately."
+        },
+        "outputConnectors": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Output connector specification not established in the accessed Chile page text."
+        },
+        "redundancy": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No verified redundancy architecture or parallel-operation capability; do not infer from product family."
+        },
+        "runtimeCurve": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No official runtime curve points captured. Verify load, battery pack configuration and test conditions; never infer from battery capacity."
+        }
+      },
+      "commercial": {
+        "lifecycleChile": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "Chile page existence and replacement battery notices do not prove the UPS is currently on sale."
+        },
+        "stock": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No live official stock source connected."
+        },
+        "price": {
+          "status": "pending_manual_verification",
+          "value": null,
+          "sourceId": null,
+          "locator": null,
+          "note": "No verified local quote or official price source captured."
+        }
+      }
+    }
+  ]
+}
